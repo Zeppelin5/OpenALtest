@@ -57,7 +57,7 @@ void main()
 	alListener3f(AL_POSITION, 0.f,0.f,10.f);
 	//-2.f,0.f,1.f 监听者在左，右耳音量较大
 	//2.f,0.f,1.f 监听者在右，左耳音量较大
-	//0.f,0.f,-1.f 监听者在后，声音为原来的AL_CONE_OUTER_GAIN倍,好像还要乘以AL_MIN_GAIN系数.
+	//0.f,0.f,-1.f 监听者在后，声音为原来的AL_CONE_OUTER_GAIN倍,好像还要乘以AL_MIN_GAIN系数
 
 	//set current listener orientation
 	ALfloat orivec[] = { 0.0f, 0.0f, -1.0f, 0.0f, 1.0f, 0.0f };
