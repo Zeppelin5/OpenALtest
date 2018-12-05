@@ -1,0 +1,14 @@
+﻿Build started 2018/11/5 18:05:03.
+     1>Project "E:\VS2013\Projects2013\OpenALtest\OpenALtest\OpenALtest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\OpenALtest\\" /Fd"Win32\Debug\OpenALtest\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\vs2013\projects2013\openaltest\openaltest\source.cpp(31): error C2664: 'void alGenSources(ALsizei,ALuint *)' : cannot convert argument 2 from 'int *' to 'ALuint *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>e:\vs2013\projects2013\openaltest\openaltest\source.cpp(129): error C2664: 'void alDeleteSources(ALsizei,const ALuint *)' : cannot convert argument 2 from 'int *' to 'const ALuint *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "E:\VS2013\Projects2013\OpenALtest\OpenALtest\OpenALtest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.39
